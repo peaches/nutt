@@ -176,6 +176,10 @@ nav>a:hover{
   .container{
     width: 95%;
   }
+  .page-header {
+    background-size: inherit;
+    background-position-x: -100px;
+  }
   nav>a{
     padding: 0 2em;
   }
@@ -214,6 +218,10 @@ nav>a:hover{
 @media (max-width: 480px) {
   .container{
     width: 90%;
+  }
+  .page-header {
+    background-size: inherit;
+    background-position-x: -100px;
   }
   nav{
     height: 0;
