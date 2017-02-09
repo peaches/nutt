@@ -20,15 +20,15 @@
           </label>
           <input type="checkbox" name="" id="open">
           <nav>
-            <a href="#">Home</a>
-            <a href="#">Firewood</a>
-            <a href="#">About us</a>
-            <a href="#">Contact</a>
+            <a href="{{site.url}}">Home</a>
+            <a href="{{site.url}}/firewood.html">Firewood</a>
+            <a href="{{site.url}}/about.html">About us</a>
+            <a href="{{site.url}}/contact.html">Contact</a>
           </nav>
         </div>
       </div>
     </header>
-    <section class="page-header">
+    <section class="page-header" style="background-image: url({{site.url}}/assets/images/{{page.header_img | default: 'header.jpg'}})">
       <div class="overlay"></div>
     </section>
 
